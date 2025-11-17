@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aladin</title>
+  <script src="https://kit.fontawesome.com/525fd3aed7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="h_top">
+      <div class="h_top_i">
+        <a href="#">중고매장찾기</a>
+        <ul class="login">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">주문배송</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="h_mid">
+      <div class="h_mid_i">
+        <div class="logo">
+          <h1>
+            <a href="#">
+              <img src="./img/logo.svg" alt="logo">
+              <span class="hidden_text">알라딘</span>
+            </a>
+          </h1>
+          <div class="logo_icon">
+            <a href="#">
+              <img src="./img/bell_icon.svg" alt="bell">
+            </a>
+            <a href="#">
+              <img src="./img/cart_icon.svg" alt="cart" class="cart">
+            </a>
+            <div class="ham">
+              <div class="ham_i">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="t_menu_drawer">
+            <i class="fa-solid fa-xmark"></i>
+            <span><a href="#">로그인</a></span>
+            <span><a href="#">마이페이지</a></span>
+            <span><a href="#">주문배송</a></span>
+            <ul>
+              <li><a href="#">국내도서</a></li>
+              <li><a href="#">전자책</a></li>
+              <li><a href="#">외국도서</a></li>
+              <li><a href="#">온라인중고</a></li>
+              <li><a href="#">알라딘 굿즈</a></li>
+            </ul>
+          </div>
+          <div class="menu_overlay"></div>
+        </div>
+        <div class="search">
+          <div class="searchType">
+            <span>통합검색</span>
+            <span><img src="./img/search_arrow.svg" alt="search"></span>
+          </div>
+          <input type="text">
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="header_icon">
+          <a href="#">
+            <img src="./img/cart_icon.svg" alt="cart" class="cart">
+          </a>
+          <a href="#">
+            <img src="./img/mypage_icon.svg" alt="mypage">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="h_bottom">
+      <div class="h_bottom_i">
+        <div class="ham">
+          <div class="ham_i">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+        <div class="menu_drawer">
+          <div class="menu_column">
+            <h4>국내도서</h4>
+            <ul>
+              <li><a href="#">건강/취미</a></li>
+              <li><a href="#">외국어</a></li>
+              <li><a href="#">경제경영</a></li>
+              <li><a href="#">요리/살림</a></li>
+              <li><a href="#">공무원 수험서</a></li>
+              <li><a href="#">유아</a></li>
+              <li><a href="#">과학</a></li>
+              <li><a href="#">인문학</a></li>
+              <li><a href="#">달력/기타</a></li>
+              <li><a href="#">자기계발</a></li>
+              <li><a href="#">대학교재</a></li>
+              <li><a href="#">잡지</a></li>
+              <li><a href="#">만화</a></li>
+              <li><a href="#">장르소설</a></li>
+              <li><a href="#">사회과학</a></li>
+              <li><a href="#">전집</a></li>
+              <li><a href="#">소설/시/희곡</a></li>
+              <li><a href="#">종교/역학</a></li>
+              <li><a href="#">수험서/자격증</a></li>
+              <li><a href="#">좋은부모</a></li>
+              <li><a href="#">어린이</a></li>
+              <li><a href="#">청소년</a></li>
+              <li><a href="#">에세이</a></li>
+              <li><a href="#">컴퓨터/모바일</a></li>
+              <li><a href="#">여행</a></li>
+              <li><a href="#">초등학교참고서</a></li>
+              <li><a href="#">역사</a></li>
+              <li><a href="#">중학교참고서</a></li>
+              <li><a href="#">예술/대중문화</a></li>
+              <li><a href="#">고등학교참고서</a></li>
+            </ul>
+          </div>
+          <div class="menu_column">
+            <h4>전자책</h4>
+            <ul>
+              <li><a href="#">경제경영</a></li>
+              <li><a href="#">과학</a></li>
+              <li><a href="#">라이트노벨</a></li>
+              <li><a href="#">로맨스</a></li>
+              <li><a href="#">만화</a></li>
+              <li><a href="#">사회과학</a></li>
+              <li><a href="#">소설/시</a></li>
+              <li><a href="#">어린이</a></li>
+              <li><a href="#">에세이</a></li>
+              <li><a href="#">역사</a></li>
+              <li><a href="#">예술/대중문화</a></li>
+              <li><a href="#">인문학</a></li>
+              <li><a href="#">자기계발</a></li>
+              <li><a href="#">종교/역학</a></li>
+              <li><a href="#">청소년</a></li>
+              <li><a href="#">판타지/무협</a></li>
+            </ul>
+          </div>
+          <div class="menu_column">
+            <h4>외국도서</h4>
+            <ul>
+              <li><a href="#">영미도서</a></li>
+              <li><a href="#">어린이</a></li>
+              <li><a href="#">ELT/어학/사전</a></li>
+              <li><a href="#">그림책</a></li>
+              <li><a href="#">가정/원예/인테리어</a></li>
+              <li><a href="#">동화책</a></li>
+              <li><a href="#">건강/스포츠</a></li>
+              <li><a href="#">리더스</a></li>
+              <li><a href="#">경제경영</a></li>
+              <li><a href="#">영어학습</a></li>
+              <li><a href="#">공예/취미/수집</a></li>
+              <li><a href="#">챕터북</a></li>
+              <li><a href="#">만화</a></li>
+              <li><a href="#">코스북</a></li>
+              <li><a href="#">소설/시/희곡</a></li>
+              <li><a href="#">여행</a></li>
+              <li><a href="#">역사</a></li>
+              <li><a href="#">요리</a></li>
+              <li><a href="#">인문/사회</a></li>
+              <li><a href="#">종교/영상/점술</a></li>
+              <li><a href="#">청소년</a></li>
+              <li><a href="#">해외잡지</a></li>
+            </ul>
+          </div>
+          <div class="menu_column">
+            <h4>온라인중고</h4>
+            <ul>
+              <li><a href="#">중고매장</a></li>
+              <li><a href="#">중고 국내도서</a></li>
+              <li><a href="#">경제경영</a></li>
+              <li><a href="#">만화</a></li>
+              <li><a href="#">사회과학</a></li>
+              <li><a href="#">소설/시/희곡</a></li>
+              <li><a href="#">어린이</a></li>
+              <li><a href="#">에세이</a></li>
+              <li><a href="#">유아</a></li>
+              <li><a href="#">인문학</a></li>
+              <li><a href="#">중고 음반</a></li>
+              <li><a href="#">가요</a></li>
+              <li><a href="#">국악</a></li>
+              <li><a href="#">월드뮤직</a></li>
+              <li><a href="#">클래식</a></li>
+              <li><a href="#">팝</a></li>
+            </ul>
+          </div>
+          <div class="menu_column">
+            <h4>알라딘 굿즈</h4>
+            <ul>
+              <li><a href="#">가방 파우치</a></li>
+              <li><a href="#">데스크용품</a></li>
+              <li><a href="#">독서용품</a></li>
+              <li><a href="#">디지털</a></li>
+              <li><a href="#">문구</a></li>
+              <li><a href="#">생활용품</a></li>
+              <li><a href="#">의류.잡화</a></li>
+              <li><a href="#">리빙.키친</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#">2학기 참고서<sup>&#9679;</sup></a></li>
+            <li><a href="#">홈</a></li>
+            <li><a href="./sub/best.html">베스트</a></li>
+            <li><a href="#">새로나온책</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">정가인하도서</a></li>
+            <li><a href="#">추천도서</a></li>
+            <li><a href="#">작가와의 만남</a></li>
+            <li><a href="#">북펀드</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="h_section">
+    <div class="h_section_i">
+      <button class="left" onclick="changeSlide(-1)">
+        <img src="./img/leftArrow.svg" alt="leftArrow">
+      </button>
+
+      <div class="slide">
+        <div class="slide-container">
+          <div class="slide-wrapper" id="slideWrapper">
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너4.jpg" alt="banner4-clone">
+                </a>
+              </figure>
+            </div>
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너1.jpg" alt="banner1">
+                </a>
+              </figure>
+            </div>
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너2.jpg" alt="banner2">
+                </a>
+              </figure>
+            </div>
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너3.jpg" alt="banner3">
+                </a>
+              </figure>
+            </div>
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너4.jpg" alt="banner4">
+                </a>
+              </figure>
+            </div>
+            <div class="slide-item">
+              <figure>
+                <a href="#">
+                  <img src="./img/배너1.jpg" alt="banner1-clone">
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="right" onclick="changeSlide(1)">
+        <img src="./img/rightArrow.svg" alt="rightArrow">
+      </button>
+    </div>
+  </section>
+
+  <section class="menu_icon">
+    <div class="menu_icon_i">
+      <div class="allIcon">
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/event_icon.svg" alt="event_i">
+            </div>
+            <span>이벤트</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/aladingoods_icon.svg" alt="goods_i">
+            </div>
+            <span>알라딘 굿즈</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/eBook_icon.svg" alt="eBook_i">
+            </div>
+            <span>eBook</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/tv_icon.svg" alt="tv_i">
+            </div>
+            <span>만권당TV</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/joongo_icon.svg" alt="joongo_i">
+            </div>
+            <span>온라인중고</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/blueray_icon.svg" alt="blueray_i">
+            </div>
+            <span>블루레이</span>
+          </a>
+        </div>
+        <div class="i_box">
+          <a href="#">
+            <div class="icon">
+              <img src="./img/new_icon.svg" alt="new_i">
+            </div>
+            <span>신작도서</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="best">
+    <div class="best_i">
+      <div class="best_title">
+        <div class="b_title">
+          <h2>베스트</h2>
+          <a href="#">더보기+</a>
+        </div>
+        <ul>
+          <li>종합</li>
+          <li>국내소설</li>
+          <li>에세이</li>
+          <li>경제경영</li>
+          <li>인문과학</li>
+          <li>외국어</li>
+          <li>자기계발</li>
+          <li>시</li>
+        </ul>
+      </div>
+      <div class="best_contents">
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트1.jpg" alt="best1">
+            </figure>
+            <div class="best_text">
+              <strong>호의에 대하여</strong>
+              <span>문형배</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트2.jpg" alt="best2">
+            </figure>
+            <div class="best_text">
+              <strong>다시 시작하는 평생 독서법</strong>
+              <span>김선영</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트3.jpg" alt="best3">
+            </figure>
+            <div class="best_text">
+              <strong>세상은 실제로 어떻게 돌아가는가</strong>
+              <span>바츨라프 스밀</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트4.jpg" alt="best4">
+            </figure>
+            <div class="best_text">
+              <strong>다크 심리학</strong>
+              <span>다크 사이드 프로젝트</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트5.jpg" alt="best5">
+            </figure>
+            <div class="best_text">
+              <strong>팩트풀니스</strong>
+              <span>한스 로슬링,올라 로슬링,안나 로슬링 뢴룬드</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트6.jpg" alt="best6">
+            </figure>
+            <div class="best_text">
+              <strong>우리 본성의 선한 천사</strong>
+              <span>스티븐 핑커</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트7.jpg" alt="best7">
+            </figure>
+            <div class="best_text">
+              <strong>오늘도 잘 놀다 갑니다</strong>
+              <span>김은영(소풍족)</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="./sub/page.html">
+            <figure>
+              <img src="./img/베스트8.jpg" alt="best8">
+            </figure>
+            <div class="best_text">
+              <strong>혼모노</strong>
+              <span>성해나</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트9.jpg" alt="best9">
+            </figure>
+            <div class="best_text">
+              <strong>안녕이라 그랬어</strong>
+              <span>김애란</span>
+            </div>
+          </a>
+        </div>
+        <div class="best_box">
+          <a href="#">
+            <figure>
+              <img src="./img/베스트10.jpg" alt="best10">
+            </figure>
+            <div class="best_text">
+              <strong>고전이 답했다</strong>
+              <span>고명환</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="best_slider_container" id="bestSliderContainer">
+        <div class="best_allbox" id="bestSlideWrapper">
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트1.jpg" alt="best1">
+              </figure>
+              <div class="best_text">
+                <strong>호의에 대하여</strong>
+                <span>문형배</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트2.jpg" alt="best2">
+              </figure>
+              <div class="best_text">
+                <strong>다시 시작하는 평생 독서법</strong>
+                <span>김선영</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트3.jpg" alt="best3">
+              </figure>
+              <div class="best_text">
+                <strong>세상은 실제로 어떻게 돌아가는가</strong>
+                <span>바츨라프 스밀</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트4.jpg" alt="best4">
+              </figure>
+              <div class="best_text">
+                <strong>다크 심리학</strong>
+                <span>다크 사이드 프로젝트</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트5.jpg" alt="best5">
+              </figure>
+              <div class="best_text">
+                <strong>팩트풀니스</strong>
+                <span>한스 로슬링,올라 로슬링,안나 로슬링 뢴룬드</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트6.jpg" alt="best6">
+              </figure>
+              <div class="best_text">
+                <strong>우리 본성의 선한 천사</strong>
+                <span>스티븐 핑커</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트7.jpg" alt="best7">
+              </figure>
+              <div class="best_text">
+                <strong>오늘도 잘 놀다 갑니다</strong>
+                <span>김은영(소풍족)</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="./sub/page.html">
+              <figure>
+                <img src="./img/베스트8.jpg" alt="best8">
+              </figure>
+              <div class="best_text">
+                <strong>혼모노</strong>
+                <span>성해나</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트9.jpg" alt="best9">
+              </figure>
+              <div class="best_text">
+                <strong>안녕이라 그랬어</strong>
+                <span>김애란</span>
+              </div>
+            </a>
+          </div>
+          <div class="best_box">
+            <a href="#">
+              <figure>
+                <img src="./img/베스트10.jpg" alt="best10">
+              </figure>
+              <div class="best_text">
+                <strong>고전이 답했다</strong>
+                <span>고명환</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="new">
+    <div class="new_i">
+      <div class="new_title">
+        <div class="n_title">
+          <h2>신간도서</h2>
+          <a href="#">더보기+</a>
+        </div>
+        <ul>
+          <li>종합</li>
+          <li>역사/문화</li>
+          <li>어린이</li>
+          <li>정치/법률</li>
+          <li>외국도서</li>
+          <li>여행</li>
+          <li>가정/생활/요리</li>
+          <li>취미/레저</li>
+        </ul>
+      </div>
+      <div class="new_contents">
+        <div class="new_box">
+          <a href="#">
+            <figure>
+              <img src="./img/신간도서1.jpg" alt="new1">
+            </figure>
+            <div class="new_text">
+              <strong>탐나는 현대미술 - 21세기가 사랑한 예술가들</strong>
+              <span>김슬기</span>
+            </div>
+          </a>
+        </div>
+        <div class="new_box">
+          <a href="#">
+            <figure>
+              <img src="./img/신간도서2.jpg" alt="new2">
+            </figure>
+            <div class="new_text">
+              <strong>도시의 상점들 어반 컬러링북</strong>
+              <span>어반 안나</span>
+            </div>
+          </a>
+        </div>
+        <div class="new_box">
+          <a href="#">
+            <figure>
+              <img src="./img/신간도서3.jpg" alt="new3">
+            </figure>
+            <div class="new_text">
+              <strong>꽃 그림으로 피어나다 - 다빈치에서 모네까지 행복과 위로를 담아낸 화가들의 정원</strong>
+              <span>스티븐 핑커</span>
+            </div>
+          </a>
+        </div>
+        <div class="new_box">
+          <a href="#">
+            <figure>
+              <img src="./img/신간도서4.jpg" alt="new4">
+            </figure>
+            <div class="new_text">
+              <strong>이피세세</strong>
+              <span>이피</span>
+            </div>
+          </a>
+        </div>
+        <div class="new_box">
+          <a href="#">
+            <figure>
+              <img src="./img/신간도서5.jpg" alt="new5">
+            </figure>
+            <div class="new_text">
+              <strong>처음 만나는 바이올린 연주곡집 - 선생님과 함께 듀엣 레슨 41곡</strong>
+              <span>김연경</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="new_slider_container" id="newSliderContainer">
+        <div class="new_allbox" id="newSlideWrapper">
+          <div class="new_box">
+            <a href="#">
+              <figure>
+                <img src="./img/신간도서1.jpg" alt="new1">
+              </figure>
+              <div class="new_text">
+                <strong>탐나는 현대미술 - 21세기가 사랑한 예술가들</strong>
+                <span>김슬기</span>
+              </div>
+            </a>
+          </div>
+          <div class="new_box">
+            <a href="#">
+              <figure>
+                <img src="./img/신간도서2.jpg" alt="new2">
+              </figure>
+              <div class="new_text">
+                <strong>도시의 상점들 어반 컬러링북</strong>
+                <span>어반 안나</span>
+              </div>
+            </a>
+          </div>
+          <div class="new_box">
+            <a href="#">
+              <figure>
+                <img src="./img/신간도서3.jpg" alt="new3">
+              </figure>
+              <div class="new_text">
+                <strong>꽃 그림으로 피어나다 - 다빈치에서 모네까지 행복과 위로를 담아낸 화가들의 정원</strong>
+                <span>스티븐 핑커</span>
+              </div>
+            </a>
+          </div>
+          <div class="new_box">
+            <a href="#">
+              <figure>
+                <img src="./img/신간도서4.jpg" alt="new4">
+              </figure>
+              <div class="new_text">
+                <strong>이피세세</strong>
+                <span>이피</span>
+              </div>
+            </a>
+          </div>
+          <div class="new_box">
+            <a href="#">
+              <figure>
+                <img src="./img/신간도서5.jpg" alt="new5">
+              </figure>
+              <div class="new_text">
+                <strong>처음 만나는 바이올린 연주곡집 - 선생님과 함께 듀엣 레슨 41곡</strong>
+                <span>김연경</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="goods">
+    <div class="goods_i">
+      <div class="goods_title">
+        <h2><a href="#">알라딘이 만든 사은품 <span>></span></a></h2>
+      </div>
+      <div class="goods_contents">
+        <button class="left" onclick="changeGoodsSlide(-1)">
+          <img src="./img/leftArrow.svg" alt="leftArrow">
+        </button>
+        <div class="goods_slider_container">
+          <div class="goods_allbox" id="goodsSlideWrapper">
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품9.jpg" alt="g9">
+                </figure>
+                <span>원목 책 거치대</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품1.jpg" alt="g1">
+                </figure>
+                <span>피너트 멀티 파우치</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품2.jpg" alt="g2">
+                </figure>
+                <span>아크릴 참 키링</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품3.jpg" alt="g3">
+                </figure>
+                <span>책 모양 태블릿 거치대</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품4.jpg" alt="g4">
+                </figure>
+                <span>엽서세트</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품5.jpg" alt="g5">
+                </figure>
+                <span>아크릴 문진</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품6.jpg" alt="g6">
+                </figure>
+                <span>호작도 노트</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품7.jpg" alt="g7">
+                </figure>
+                <span>황선미 사인 유리머그</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품8.jpg" alt="g8">
+                </figure>
+                <span>[키메라의 땅] 키링</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품9.jpg" alt="g9">
+                </figure>
+                <span>원목 책 거치대</span>
+              </a>
+            </div>
+            <div class="goods_box">
+              <a href="#">
+                <figure>
+                  <img src="./img/사은품1.jpg" alt="g1">
+                </figure>
+                <span>피너트 멀티 파우치</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="right" onclick="changeGoodsSlide(1)">
+          <img src="./img/rightArrow.svg" alt="rightArrow">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="audio">
+    <div class="audio_i">
+      <div class="audio_title">
+        <h2><a href="#">알라딘 오디오북 <span>></span></a></h2>
+      </div>
+      <div class="audio_contents">
+        <div class="audio_box">
+          <a href="#">
+            <figure>
+              <img src="./img/오디오북1.jpg" alt="a1">
+              <img src="./img/audio_icon.svg" alt="a_icon" class="a_icon">
+            </figure>
+            <span>인생 녹음 중</span>
+          </a>
+        </div>
+        <div class="audio_box">
+          <a href="#">
+            <figure>
+              <img src="./img/오디오북2.jpg" alt="a2">
+              <img src="./img/audio_icon.svg" alt="a_icon" class="a_icon">
+            </figure>
+            <span>내가 죽기 일주일 전</span>
+          </a>
+        </div>
+        <div class="audio_box">
+          <a href="#">
+            <figure>
+              <img src="./img/오디오북3.jpg" alt="a3">
+              <img src="./img/audio_icon.svg" alt="a_icon" class="a_icon">
+            </figure>
+            <span>찌그러져도 동그라미입니다</span>
+          </a>
+        </div>
+        <div class="audio_box">
+          <a href="#">
+            <figure>
+              <img src="./img/오디오북4.jpg" alt="a4">
+              <img src="./img/audio_icon.svg" alt="a_icon" class="a_icon">
+            </figure>
+            <span>스티커</span>
+          </a>
+        </div>
+        <div class="audio_box">
+          <a href="#">
+            <figure>
+              <img src="./img/오디오북5.jpg" alt="a5">
+              <img src="./img/audio_icon.svg" alt="a_icon" class="a_icon">
+            </figure>
+            <span>섬에 있는 서점</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ad">
+    <div class="ad_i">
+      <div class="ad_box">
+        <a href="#">
+          <figure>
+            <img src="./img/광고1.jpg" alt="ad1">
+          </figure>
+        </a>
+      </div>
+      <div class="ad_box">
+        <a href="#">
+          <figure>
+            <img src="./img/광고2.jpg" alt="ad2">
+          </figure>
+        </a>
+      </div>
+      <div class="ad_box">
+        <a href="#">
+          <figure>
+            <img src="./img/광고3.jpg" alt="ad3">
+          </figure>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="f_top">
+      <div class="f_top_i">
+        <div class="ft_left">
+          <strong>공지사항</strong>
+          <span>[채용공고]웹프론트엔드 엔지니어</span>
+        </div>
+        <div class="ft_right">
+          <a href="#">더보기+</a>
+        </div>
+      </div>
+    </div>
+    <div class="f_bottom">
+      <div class="f_bottom_i">
+        <div class="f_logo">
+          <div class="f_logo_left">
+            <a href="#">
+              <img src="./img/footer_logo.svg" alt="f_logo">
+            </a>
+            <span>(주)알라딘커뮤니케이션</span>
+          </div>
+          <strong>고객센터 1544-2514</strong>
+        </div>
+        <div class="f_contents">
+          <ul class="fnb">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">채용안내</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년 보호정책</a></li>
+            <li><a href="#">제휴 마케팅 안내</a></li>
+            <li><a href="#">판매자 매니저</a></li>
+            <li><a href="#">광고안내</a></li>
+            <li><a href="#">대량구매</a></li>
+          </ul>
+          <strong class="soop">서울시 마포구 백범로 71 숨도빌딩 7층 </strong>
+          <div class="ceo">
+            <span>대표이사 최우경</span>
+            <span>(본사) 서울시 중구 서소문로 89-31</span>
+            <span class="mail">대표메일 privacy@aladin.co.kr</span>
+          </div>
+          <span class="fax">Fax 02-6926-2600</span>
+          <div class="sns">
+            <figure>
+              <a href="#">
+                <img src="./img/f_icon_instar.svg" alt="f_i_instar">
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <img src="./img/f_icon_twit.svg" alt="f_i_twit">
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <img src="./img/f_icon_face.svg" alt="f_i_face">
+              </a>
+            </figure>
+          </div>
+          <div class="buis">
+            <span>사업자등록 201- 81-23094</span>
+            <span>통신판매업신고 2003-서울중구-01520</span>
+          </div>
+          <div class="f_btn">
+            <a href="#">1:1문의</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="copyright">
+            ⓒAladin Communication. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="top">
+    <img src="./img/top_btn.svg" alt="top">
+  </div>
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

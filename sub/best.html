@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best page</title>
+  <script src="https://kit.fontawesome.com/525fd3aed7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/best.css">
+</head>
+
+<body>
+  <header>
+    <div class="h_top">
+      <div class="h_top_i">
+        <a href="#">중고매장찾기</a>
+        <ul class="login">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">주문배송</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="h_mid">
+      <div class="h_mid_i">
+        <div class="logo">
+          <h1>
+            <a href="#">
+              <img src="../img/logo.svg" alt="logo">
+              <span class="hidden_text">알라딘</span>
+            </a>
+          </h1>
+          <div class="logo_icon">
+            <a href="#">
+              <img src="../img/bell_icon.svg" alt="bell">
+            </a>
+            <a href="#">
+              <img src="../img/cart_icon.svg" alt="cart" class="cart">
+            </a>
+            <div class="ham">
+              <div class="ham_i">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search">
+          <div class="searchType">
+            <span>통합검색</span>
+            <span><img src="../img/search_arrow.svg" alt="search"></span>
+          </div>
+          <input type="text">
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="header_icon">
+          <a href="#">
+            <img src="../img/cart_icon.svg" alt="cart" class="cart">
+          </a>
+          <a href="#">
+            <img src="../img/mypage_icon.svg" alt="mypage">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="h_bottom">
+      <div class="h_bottom_i">
+        <div class="ham">
+          <div class="ham_i">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">2학기 참고서<sup>&#9679;</sup></a></li>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">새로나온책</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">정가인하도서</a></li>
+            <li><a href="#">추천도서</a></li>
+            <li><a href="#">작가와의 만남</a></li>
+            <li><a href="#">북펀드</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="Breadcrumb">
+    <div class="bc_i">
+      <ol>
+        <li><a href="#">
+            <img src="../img/bread_crumb.svg" alt="bread">
+          </a></li>
+        <li><a href="#">베스트</a></li>
+        <li><a href="#">주간베스트</a></li>
+        <li>종합</li>
+      </ol>
+    </div>
+  </div>
+  <div class="title">
+    <div class="title_i">
+      <h2>베스트셀러</h2>
+    </div>
+  </div>
+  <div class="tab">
+    <ul>
+      <li>주간 베스트</li>
+      <li>월간 베스트</li>
+      <li>특가 베스트</li>
+      <li>신간 베스트</li>
+      <li>스테디셀러</li>
+      <li>선물 베스트</li>
+    </ul>
+  </div>
+  <div class="best_contents">
+    <div class="b_contents_i">
+      <div class="best_left">
+        <ul>
+          <li>종합</li>
+          <li>국내소설</li>
+          <li>에세이</li>
+          <li>경제경영</li>
+          <li>인문과학</li>
+          <li>외국어</li>
+          <li>자기계발</li>
+          <li>시</li>
+          <li>역사/문화</li>
+          <li>어린이</li>
+          <li>정치/법률</li>
+          <li>외국도서</li>
+          <li>여행</li>
+          <li>가정/생활/요리</li>
+          <li>취미/레저</li>
+          <li>수험서</li>
+          <li>종교</li>
+          <li>만화</li>
+          <li>잡지</li>
+        </ul>
+      </div>
+      <div class="best_left_sim">
+        <strong>종합</strong>
+        <figure>
+          <img src="../img/종합화살표.svg" alt="total_arrow">
+        </figure>
+      </div>
+      <div class="b_right">
+        <div class="view">
+          <div class="search">
+            <select name="year" id="year" class="year">
+              <option value="year">2025년</option>
+              <option value="year">2024년</option>
+              <option value="year">2023년</option>
+              <option value="year">2022년</option>
+              <option value="year">2021년</option>
+            </select>
+            <select name="month" id="month" class="month">
+              <option value="month">1월</option>
+              <option value="month">2월</option>
+              <option value="month">3월</option>
+              <option value="month">4월</option>
+              <option value="month">5월</option>
+              <option value="month">6월</option>
+              <option value="month">7월</option>
+              <option value="month">8월</option>
+              <option value="month">9월</option>
+              <option value="month">10월</option>
+              <option value="month">11월</option>
+              <option value="month">12월</option>
+            </select>
+            <select name="week" id="week" class="week">
+              <option value="week">1주</option>
+              <option value="week">2주</option>
+              <option value="week">3주</option>
+              <option value="week">4주</option>
+            </select>
+            <button type="button" class="search_btn">조회</button>
+          </div>
+          <div class="search_tablet">
+            <figure>
+              <img src="../img/search_tablet.svg" alt="s_tablet">
+            </figure>
+            <span>2025년 8월 3주</span>
+          </div>
+          <div class="array">
+            <select name="count" id="count" class="count">
+              <option value="count">10개씩 보기</option>
+              <option value="count">50개씩 보기</option>
+              <option value="count">100개씩 보기</option>
+              <option value="count">150개씩 보기</option>
+            </select>
+            <figure>
+              <img src="../img/array4.svg" alt="a4">
+            </figure>
+            <figure>
+              <img src="../img/array3.svg" alt="a3">
+            </figure>
+          </div>
+        </div>
+        <div class="check">
+          <figure>
+            <img src="../img/best_check.svg" alt="b_check">
+          </figure>
+          <span>선택한 상품을</span>
+          <span>바로구매</span>
+          <span>장바구니</span>
+          <span>마이리스트</span>
+        </div>
+        <div class="allbox">
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트1.jpg" alt="b1">
+                <div class="rank">1</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">양장 독서 노트</span>
+                <h4>
+                  <span>[국내도서]</span>호의에 대하여<span>-무엇이 우리를 살아가게 하는가</span>
+                </h4>
+                <span class="writer">조영민(지은이)ㅣ서삼도기ㅣ2025년 8월</span>
+                <div class="price">
+                  <span>18,800원</span>
+                  <span>16,920원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>940</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>10.0</span>
+                  <span>(3)</span>
+                  <span>ㅣ세일즈포인트 : 23,840</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트2.jpg" alt="b2">
+                <div class="rank">2</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">9월 특별 선물. 네잎클로버 쿠션 · 키링 파우치 · 양말 (이벤트 도서 포함 국내서·외서 5만원 이상)</span>
+                <h4>
+                  <span>[국내도서]</span>렛뎀 이론<span>- 인생이 ‘나’로 충만해지는 내버려두기의 기술</span>
+                </h4>
+                <span class="writer">멜 로빈스 (지은이), 윤효원 (옮긴이) | 비즈니스북스 | 2025년 8월</span>
+                <div class="price">
+                  <span>20,000원</span>
+                  <span>18,000원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>1,000</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>9.8</span>
+                  <span>(81)</span>
+                  <span>ㅣ세일즈포인트 : 111,210</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트3.jpg" alt="b3">
+                <div class="rank">3</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">빌 게이츠의 인생책 추천, 노트북 키보드 덮개</span>
+                <h4>
+                  <span>[국내도서]</span> 팩트풀니스 (50만 부 뉴에디션)<span>- 우리가 세상을 오해하는</span>
+                </h4>
+                <span class="writer">한스 로슬링, 올라 로슬링, 안나 로슬링 뢴룬드 (지은이), 이창신 (옮긴이) | 김영사 | 2024년 9월</span>
+                <div class="price">
+                  <span>23,800원</span>
+                  <span>21,420원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>1,190</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>9.1</span>
+                  <span>(16)</span>
+                  <span>ㅣ세일즈포인트 : 56,645</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트4.jpg" alt="b4">
+                <div class="rank">4</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">빌 게이츠의 인생책 추천, 노트북 키보드 덮개</span>
+                <h4>
+                  <span>[국내도서]</span>세상은 실제로 어떻게 돌아가는가<span>- 우리의 문명을 정확하게 이해하기 위한 과학적 접근</span>
+                </h4>
+                <span class="writer">바츨라프 스밀 (지은이), 강주헌 (옮긴이) | 김영사 | 2023년 3월</span>
+                <div class="price">
+                  <span>22,000원</span>
+                  <span> 19,800원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>1,100</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>8.7</span>
+                  <span>(26)</span>
+                  <span>ㅣ세일즈포인트 : 41,704</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트5.jpg" alt="b5">
+                <div class="rank">5</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만5천원 이상)</span>
+                <h4>
+                  <span>[국내도서]</span>다크 심리학
+                </h4>
+                <span class="writer">다크 사이드 프로젝트 (지은이) | 어센딩 | 2025년 7월</span>
+                <div class="price">
+                  <span>21,900원</span>
+                  <span>19,710원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>1,090</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>8.8</span>
+                  <span>(37)</span>
+                  <span>ㅣ세일즈포인트 : 41,965</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트6.jpg" alt="b6">
+                <div class="rank">6</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">소설 보다, 혼모노 우양산 (소설/시 35,000원 이상)</span>
+                <h4>
+                  <span>[국내도서]</span>혼모노
+                </h4>
+                <span class="writer">성해나 (지은이) | 창비 | 2025년 3월</span>
+                <div class="price">
+                  <span>18,000원</span>
+                  <span> 16,200원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>900</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>8.7</span>
+                  <span>(158)</span>
+                  <span>ㅣ세일즈포인트 : 336,753</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="b_left">
+              <figure>
+                <img src="../img/서브1베스트8.jpg" alt="b7">
+                <div class="rank">7</div>
+              </figure>
+              <div class="text">
+                <a href="#" class="event">이벤트</a>
+                <span class="t_color">저자 친필 사인본 + 명언 캘린더 + 스티커 SET</span>
+                <h4>
+                  <span>[국내도서]</span>머니 트렌드 2026<span>- 위기 속 돈의 흐름을 지배하는 50가지 생존 공식 </span>
+                </h4>
+                <span class="writer">김도윤, 정태익, 김광석, 김승주, 김용섭, 김학렬(빠숑), 김현준, 최재붕 (지은이) | 북모먼트 | 2025년 9월</span>
+                <div class="price">
+                  <span>26,000원</span>
+                  <span>23,400원</span>
+                  <p>
+                    (<span>10%</span>할인), 마일리지<span>1,300</span>원
+                  </p>
+                </div>
+                <div class="point">
+                  <img src="../img/best_star.svg" alt="b_star">
+                  <span>10.0</span>
+                  <span>(3)</span>
+                  <span>ㅣ세일즈포인트 : 6,530</span>
+                </div>
+                <div class="dili">
+                  <div class="dili_text">
+                    <span>양탄자배송</span>
+                    <span>8월 25일 (월) 아침 7시</span>
+                    <strong>출근 전 배송</strong>
+                  </div>
+                  <div class="dili_icon">
+                    <figure>
+                      <img src="../img/dili_icon1.svg" alt="dili_icon1">
+                    </figure>
+                    <figure>
+                      <img src="../img/dili_icon2.svg" alt="dili_icon2">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <span>바로구매</span>
+              <span>장바구니</span>
+              <span>마이리스트</span>
+            </div>
+          </div>
+        </div>
+        <div class="check">
+          <figure>
+            <img src="../img/best_check.svg" alt="b_check">
+          </figure>
+          <span>선택한 상품을</span>
+          <span>바로구매</span>
+          <span>장바구니</span>
+          <span>마이리스트</span>
+        </div>
+        <div class="page">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="f_top">
+      <div class="f_top_i">
+        <div class="ft_left">
+          <strong>공지사항</strong>
+          <span>[채용공고]웹프론트엔드 엔지니어</span>
+        </div>
+        <div class="ft_right">
+          <a href="#">더보기+</a>
+        </div>
+      </div>
+    </div>
+    <div class="f_bottom">
+      <div class="f_bottom_i">
+        <div class="f_logo">
+          <div class="f_logo_left">
+            <a href="#">
+              <img src="../img/footer_logo.svg" alt="f_logo">
+            </a>
+            <span>(주)알라딘커뮤니케이션</span>
+          </div>
+          <strong>고객센터 1544-2514</strong>
+        </div>
+        <div class="f_contents">
+          <ul class="fnb">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">채용안내</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년 보호정책</a></li>
+            <li><a href="#">제휴 마케팅 안내</a></li>
+            <li><a href="#">판매자 매니저</a></li>
+            <li><a href="#">광고안내</a></li>
+            <li><a href="#">대량구매</a></li>
+          </ul>
+          <strong class="soop">서울시 마포구 백범로 71 숨도빌딩 7층 </strong>
+          <div class="ceo">
+            <span>대표이사 최우경</span>
+            <span>(본사) 서울시 중구 서소문로 89-31</span>
+            <span class="mail">대표메일 privacy@aladin.co.kr</span>
+          </div>
+          <span class="fax">Fax 02-6926-2600</span>
+          <div class="sns">
+            <figure>
+              <a href="#">
+                <img src="../img/f_icon_instar.svg" alt="f_i_instar">
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <img src="../img/f_icon_twit.svg" alt="f_i_twit">
+              </a>
+            </figure>
+            <figure>
+              <a href="#">
+                <img src="../img/f_icon_face.svg" alt="f_i_face">
+              </a>
+            </figure>
+          </div>
+          <div class="buis">
+            <span>사업자등록 201- 81-23094</span>
+            <span>통신판매업신고 2003-서울중구-01520</span>
+          </div>
+          <div class="f_btn">
+            <a href="#">1:1문의</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="copyright">
+            ⓒAladin Communication. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="top">
+    <img src="../img/top_btn.svg" alt="top">
+  </div>
+</body>
+
+</html>
